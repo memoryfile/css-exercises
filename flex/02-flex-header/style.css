@@ -20,6 +20,8 @@ a {
   font-size: 22px;
   background: white;
   padding: 8px;
+  display: inline-flex;
+  flex-flow: space-between;
   /* this removes the line under the links */
   text-decoration: none;
 }
