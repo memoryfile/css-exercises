@@ -5,6 +5,13 @@ body {
   margin: 0;
   overflow: hidden;
   font-family: Roboto, sans-serif;
+  /* flex-direction: column; */
+}
+
+header {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
 }
 
 img {
@@ -24,4 +31,25 @@ input {
   padding: 8px 24px;
   width: 400px;
   margin-bottom: 16px;
+}
+
+.left-links {
+  display: flex;
+  align-items: flex-start;
+  gap: 6px;
+}
+
+.right-links {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-start;
+  gap: 6px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a:link {
+  text-decoration: none;
 }
