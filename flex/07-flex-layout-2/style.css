@@ -38,6 +38,7 @@ body {
   background: royalblue;
   /* display: flex; -- looksl ike you don't need this for flex-shrink */
   flex-shrink: 0;
+  /* prevents the sidebar from shrinking */
   padding: 16px;
   /* flex-direction: column; */
   /* column-gap: 100px; */
