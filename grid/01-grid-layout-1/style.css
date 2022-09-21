@@ -13,7 +13,7 @@ html {
   /* grid-template: 900px 40px 40px 900px / 150px 110px 600px 110px; */
   grid-template-columns: 900px 40px 40px 900px;
   grid-template-rows: 150px 110px 580px 100px;
-  gap: 10px;
+  gap: 15px;
   grid-template-areas:
     "header header header header"
     "sidebar nav nav nav"
