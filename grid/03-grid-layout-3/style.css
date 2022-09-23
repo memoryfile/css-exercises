@@ -8,15 +8,24 @@
 }
 
 .container div {
+  display: grid;
+  gap: 15px;
   padding: 15px;
   font-size: 32px;
   font-family: Helvetica;
   font-weight: bold;
   color: white;
+  grid-template-areas:
+  "header header header header"
+  "sidebar nav nav nav"
+  "sidebar article article article"
+  "footer footer footer footer";
 }
 
 .header {
   background-color: #393f4d;
+  display: grid;
+  grid-template-rows: repeat(4, 0.1fr);
 }
 
 .logo {
@@ -35,6 +44,12 @@
 
 .sidebar {
   background-color: #FF7755;
+  display: grid;
+}
+
+.sidebar > div {
+  grid-template-rows: repeat(4, 0.2fr);
+  grid-template-columns: repeat(20px, minmax(150px, 1fr));
 }
 
 .sidebar .photo {
