@@ -24,6 +24,9 @@
 
 .header {
   background-color: #393f4d;
+  height: 100px;
+  grid-template-columns: repeat(2, 1fr);
+  /* gap: 10px; */
 }
 
 .logo {
