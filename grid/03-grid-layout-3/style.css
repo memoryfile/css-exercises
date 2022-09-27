@@ -42,10 +42,15 @@
 
 .sidebar {
   background-color: #FF7755;
+  gap: 50px;
 }
 
 .sidebar > .side-content {
-  grid-auto-columns: repeat(3, 1fr);
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  width: 200px;
+  height: 150px;
+  margin: 10px;
   grid-column: 1 / 1;
 }
 
@@ -55,6 +60,9 @@
   font-size: 12px;
   font-weight: normal;
   border-radius: 10px 10px;
+  width: 200px;
+  height: 150px;
+  margin: 10px;
 }
 
 .photo  {
