@@ -80,6 +80,7 @@
 
 .nav {
   background-color: #FF7755;
+  /* Move this up to the top using CSS */
 }
 
 .nav ul {
