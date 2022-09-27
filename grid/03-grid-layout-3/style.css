@@ -9,14 +9,12 @@
 
 .container div {
   display: grid;
-  gap: 15px;
+  gap: 4px;
   padding: 15px;
   font-size: 32px;
   font-family: Helvetica;
   font-weight: bold;
   color: white;
-  /* grid-template-columns: 100px;
-  grid-template-rows: 100px 200px; */
   grid-template-areas:
   "header header header header"
   "sidebar nav nav nav"
