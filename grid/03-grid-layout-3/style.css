@@ -24,8 +24,6 @@
 
 .header {
   background-color: #393f4d;
-  display: grid;
-  grid-template-rows: repeat(4, 0.1fr);
 }
 
 .logo {
@@ -44,12 +42,10 @@
 
 .sidebar {
   background-color: #FF7755;
-  display: grid;
 }
 
 .sidebar > div {
-  grid-template-rows: repeat(4, 0.2fr);
-  grid-template-columns: repeat(20px, minmax(150px, 1fr));
+  /* grid-template-columns: minmax(100px, 1fr); */
 }
 
 .sidebar .photo {
@@ -57,7 +53,7 @@
   color: black;
   font-size: 12px;
   font-weight: normal;
-  border-radius: 10px;
+  border-radius: 10px 10px;
 }
 
 .photo  {
