@@ -96,13 +96,13 @@
   background-color: #FFFFFF;
   color: black;
   text-align: center;
-  grid-row: 2 / 4;
 }
 
 .card p {
   color: black;
   font-weight: normal;
   font-size: 14px;
+  grid-column: 2;
 }
 
 .card .title {
