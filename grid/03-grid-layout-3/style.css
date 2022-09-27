@@ -15,6 +15,8 @@
   font-family: Helvetica;
   font-weight: bold;
   color: white;
+  /* grid-template-columns: 100px;
+  grid-template-rows: 100px 200px; */
   grid-template-areas:
   "header header header header"
   "sidebar nav nav nav"
@@ -44,8 +46,9 @@
   background-color: #FF7755;
 }
 
-.sidebar > div {
-  /* grid-template-columns: minmax(100px, 1fr); */
+.sidebar > .side-content {
+  grid-auto-columns: repeat(3, 1fr);
+  grid-column: 1 / 1;
 }
 
 .sidebar .photo {
@@ -93,6 +96,7 @@
   background-color: #FFFFFF;
   color: black;
   text-align: center;
+  grid-row: 2 / 4;
 }
 
 .card p {
