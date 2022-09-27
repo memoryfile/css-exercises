@@ -43,7 +43,7 @@
 .sidebar {
   background-color: #FF7755;
   width: 300px;
-  /* height: 800px; */
+  height: 700px;
 }
 
 .sidebar > .side-content {
