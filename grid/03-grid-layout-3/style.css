@@ -5,17 +5,18 @@
 
 .container {
   text-align: center;
+  grid-template-columns: 300px 200%;
+  gap: 4px;
 }
 
 .container div {
   display: grid;
-  gap: 4px;
   padding: 15px;
   font-size: 32px;
   font-family: Helvetica;
   font-weight: bold;
   color: white;
-  grid-template-columns: 300px 200%;
+  
   /* grid-template-areas:
   "header header header header"
   "sidebar nav nav nav"
@@ -34,8 +35,6 @@
 }
 
 .menu {
-  /* grid-template-columns: repeat(4, 1fr); */
-  /* grid-template-rows: repeat(4, 1fr); */
 }
 
 .menu ul {
@@ -44,6 +43,8 @@
 .menu ul,
 .menu li {
   font-size: 16px;
+  grid-template-columns: repeat(4, 1fr);
+  /* grid-row: 2 / 5; */
 }
 
 .sidebar {
