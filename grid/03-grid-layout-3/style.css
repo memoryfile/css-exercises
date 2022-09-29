@@ -61,7 +61,7 @@
   background-color: #ff7755;
   display: grid;
   width: 250px;
-  height: 1000px;
+  height: 950px;
   gap: 50px;
   grid-column: 1/1;
 }
