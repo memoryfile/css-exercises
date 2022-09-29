@@ -73,6 +73,7 @@
   font-size: 12px;
   font-weight: normal;
   border-radius: 10px 10px;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   width: 200px;
   height: 150px;
   margin: 10px;
