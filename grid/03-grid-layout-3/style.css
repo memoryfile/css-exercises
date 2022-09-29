@@ -46,15 +46,14 @@
 
 .menu ul {
   display: grid;
-  gap: 150px;
-  width: 1000px;
+  width: 1300px;
   list-style: none;
 }
 
 .menu ul,
 .menu li {
   font-size: 16px;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
   align-content: center;
 }
 
