@@ -32,7 +32,7 @@
   height: 100px;
   grid-template-columns: repeat(2, 1fr);
   grid-column: 1 / span 2;
-  width: 1900px;
+  width: 1890px;
 }
 
 .logo {
@@ -157,7 +157,10 @@
 .footer {
   background-color: #393f4d;
   display: grid;
-  width: 1880px;
+  /* grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); */
+  width: 1890px;
+  justify-content: center;
+  align-items: center;
   grid-column: 1 / span 2;
 }
 
