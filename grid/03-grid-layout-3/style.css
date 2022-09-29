@@ -46,7 +46,6 @@
   display: grid;
   gap: 150px;
   width: 1000px;
-  /* text-align:justify; */
   list-style: none;
 }
 
@@ -55,7 +54,6 @@
   font-size: 16px;
   grid-template-columns: repeat(4, 1fr);
   align-content: center;
-  /* grid-row: 2 / 5; */
 }
 
 .sidebar {
@@ -109,6 +107,7 @@
 
 .nav ul {
   display: grid;
+  grid-template-columns: repeat(3, 1fr);
 }
 
 .nav ul li {
