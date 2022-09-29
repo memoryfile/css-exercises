@@ -6,7 +6,7 @@
 .container {
   text-align: center;
   display: grid;
-  grid-template-columns: 280px 200%;
+  grid-template-columns: 1fr 4fr;
   gap: 4px;
 }
 
@@ -123,9 +123,10 @@
 .article {
   background-color: #bccbde;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  /* grid-template-rows: repeat(3, minmax(250px, 1fr)); */
   gap: 15px;
   grid-column: 2/2;
-  width: 1000px;
+  /* width: 1000px; */
   /* Set rows/columns to 3 by 3, excluding a few articles in the process*/
 }
 
@@ -157,8 +158,8 @@
 .footer {
   background-color: #393f4d;
   display: grid;
-  /* grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); */
-  width: 1890px;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  /* width: 1890px; */
   justify-content: center;
   align-items: center;
   grid-column: 1 / span 2;
