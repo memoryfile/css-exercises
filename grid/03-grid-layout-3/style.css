@@ -103,9 +103,7 @@
   background-color: #ff7755;
   grid-column: 2/2;
   height: 20px;
-  width: 1600px;
-  /* display: grid; */
-  /* Move this up to the top using CSS */
+  grid-template-columns: repeat(auto-fit, minmax(1600px, 1fr));
 }
 
 .nav ul {
