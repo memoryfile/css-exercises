@@ -21,6 +21,8 @@
   "header header header header"
   "sidebar nav nav nav"
   "sidebar article article article"
+  "sidebar article article article"
+  "sidebar article article article"
   "footer footer footer footer"; */
 }
 
@@ -93,11 +95,12 @@
 
 .nav {
   background-color: #FF7755;
-  /* display: grid; */
+  /* display: grid; */  
   /* Move this up to the top using CSS */
 }
 
 .nav ul {
+  display: grid;
 }
 
 .nav ul li {
