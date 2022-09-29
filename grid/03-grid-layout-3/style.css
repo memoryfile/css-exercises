@@ -30,6 +30,7 @@
   background-color: #393f4d;
   height: 100px;
   grid-template-columns: repeat(2, 1fr);
+  grid-column: 1 / span 2;
 }
 
 .logo {
@@ -63,6 +64,7 @@
   width: 250px;
   height: 1000px;
   gap: 50px;
+  grid-column: 1/1;
 }
 
 .sidebar .photo {
@@ -100,6 +102,7 @@
 
 .nav {
   background-color: #ff7755;
+  grid-column: 2/2;
   /* display: grid; */
   /* Move this up to the top using CSS */
 }
@@ -118,6 +121,7 @@
   background-color: #bccbde;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   gap: 15px;
+  grid-column: 2/2;
   /* Set rows/columns to 3 by 3, excluding a few articles */
 }
 
@@ -139,7 +143,6 @@
   color: black;
   font-weight: normal;
   font-size: 14px;
-  grid-column: 2;
 }
 
 .card .title {
@@ -149,6 +152,7 @@
 
 .footer {
   background-color: #393f4d;
+  grid-column: 1 / span 2;
 }
 
 .footer p {
