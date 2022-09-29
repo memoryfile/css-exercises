@@ -84,6 +84,7 @@
 }
 
 .sidebar .side-content {
+  /* Unsure how to center the 'Box _' text with CSS grid here */
   background-color: white;
   color: black;
   font-size: 16px;
@@ -116,8 +117,8 @@
 .article {
   background-color: #bccbde;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  /* grid-template-rows: repeat(6, 1fr); */
-  /* Set rows/columns to 3 by 3 */
+  gap: 15px;
+  /* Set rows/columns to 3 by 3, excluding a few articles */
 }
 
 .article p {
