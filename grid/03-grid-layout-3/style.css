@@ -60,10 +60,11 @@
 .sidebar {
   background-color: #ff7755;
   display: grid;
-  width: 250px;
-  height: 950px;
+  /* width: 250px; */
+  grid-template-columns: minmax(250px, 1fr);
+  /* height: 950px; */
   gap: 50px;
-  grid-column: 1/1;
+  /* grid-column: 1/1; */
 }
 
 .sidebar .photo {
@@ -85,7 +86,6 @@
 }
 
 .sidebar .side-content {
-  /* Unsure how to center the 'Box _' text with CSS grid here */
   background-color: white;
   color: black;
   font-size: 16px;
