@@ -60,11 +60,8 @@
 .sidebar {
   background-color: #ff7755;
   display: grid;
-  /* width: 250px; */
   grid-template-columns: minmax(250px, 1fr);
-  /* height: 950px; */
   gap: 50px;
-  /* grid-column: 1/1; */
 }
 
 .sidebar .photo {
@@ -74,7 +71,6 @@
   font-weight: normal;
   border-radius: 10px 10px;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  width: 200px;
   height: 150px;
   margin: 10px;
 }
@@ -92,7 +88,6 @@
   font-weight: normal;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  width: 200px;
   height: 150px;
   margin: 10px;
   justify-content: center;
