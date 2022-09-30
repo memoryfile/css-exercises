@@ -32,10 +32,10 @@
   height: 100px;
   grid-template-columns: repeat(2, 1fr);
   grid-column: 1 / span 2;
-  width: 1890px;
 }
 
 .logo {
+  grid-template-columns: repeat(auto-fit, minmax(200px, 200px));
   justify-content: left;
   align-content: center;
 }
